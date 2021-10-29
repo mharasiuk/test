@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ---- reset ---- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+html {
+  scroll-behavior: smooth !important;
+}
+*/
+
+body {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13e8e9;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+
+
+.home {
+  position: absolute;
+  font-weight: 200;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding: 20px;
+
+}
+
+
+.home p {
+  font-size: 30px;
+  display: block;
+  padding-bottom: 20px;
+  font-weight: 400;
+  color: #49D907;
+  z-index: 1;
+}
+
+.home h1 {
+  display: block;
+  padding-bottom: 15px;
+  font-size: 40px;
+  color: #49D907;
+
+}
+
+.home h2 {
+  display: block;
+  font-size: 28px;
+  color: white;
+
+}
+
+.landing-page {
+  width: 100%;
+  height: 100vh;
+  top: 10vh;
+  left: 0;
+
+
+
+}
+
+a button {
+  display: block;
+  position: absolute;
+  top: 80vh;
+  width: 350px;
+  border-radius: 5px;
+  padding: 15px;
+  z-index: 1;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  border: 2px solid #49D907;
+  background-color: rgba(255, 255, 255, 0);
+
+
+}
+
+a button:hover {
+  transition: 0.5s;
+  color: white;
+  font-size: 1.55rem;
+  background-color: rgba(40, 40, 40, 0.5);
+}
+
+
+
+
+
+.content {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+.beginer {
+  height: 100vh;
+}
+
+.avatar {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 35vh;
+  transition-duration: 1s;
+}
+
+.avatar:hover {
+  transform: scale(1.05)
+}
+
+.describe {
+  position: absolute;
+  left: 25%;
+  text-align: justify;
+}
+
+.describe p {
+  /*  text-indent: 30px;*/
+  color: #000000;
+  font-size: 1.2rem;
+}
+
+.skills {
+  height: 130vh;
+  background-color: #F6F6F6;
+}
+
+.myskills h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.myskills p {
+  text-align: justify;
+  color: #000000;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.mybutton {
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+}
+
+.project {
+  height: 210vh;
+}
+
+.hobby {
+  height: 350vh;
+  color: #000000;
+  background-color: #F6F6F6;
+}
+
+.firstsection {
+  height: 50vh;
+  /*  background-color: #E5E5E5;*/
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.firstimage {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  transition-duration: 1s;
+  /*  margin-left: 30px;*/
+
+}
+
+.firstdescription p {
+  display: block;
+  text-align: justify;
+  margin-right: 22vw;
+
+}
+
+.firstimage img {
+  height: 50vh;
+
+}
+
+.firstimage:hover {
+  transform: scale(1.05)
+}
+
+.secondsection {
+  height: 50vh;
+  /*  background-color: #E5E5E5;*/
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.secondimage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  transition-duration: 1s;
+  /*  margin-left: 30px;*/
+
+}
+
+.seconddescription p {
+  display: block;
+  text-align: justify;
+  margin-left: 22vw;
+
+}
+
+.secondimage img {
+  height: 50vh;
+
+}
+
+.secondimage:hover {
+  transform: scale(1.05)
+}
+
+
+
+.contact {
+  height: 100vh;
+
+}
+
+.footer {
+  height: 130px;
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.footer .row .span12 {
+  margin-top: 50px;
+  /*  margin-bottom: auto;*/
+}
+
+
+
+.text-centerrr {
+  text-align: center;
+  font-size: 1.75rem;
+  text-transform: capitalize;
+
+}
